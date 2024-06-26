@@ -1,10 +1,12 @@
 import Navigation from "./Nav";
-import { motion } from "framer-motion";
+import Header from "./Header";
+// import { motion } from "framer-motion";
 
 const Home = () => {
   return (
     <>
       <Navigation />
+      <Header />
     </>
   );
 };

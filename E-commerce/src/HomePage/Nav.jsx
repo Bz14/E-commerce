@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <Navbar expand="lg" className={styles.navContainer}>
       <Container>
-        <Navbar.Brand href="#home">E-commerce</Navbar.Brand>
+        <Navbar.Brand href="#home">E-Shopee</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
