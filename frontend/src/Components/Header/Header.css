@@ -36,3 +36,6 @@ p {
 .left-icon {
   margin-left: 10px;
 }
+.header-right {
+  display: flex;
+}

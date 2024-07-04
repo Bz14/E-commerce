@@ -1,0 +1,15 @@
+.popular-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popular-title {
+  text-align: center;
+  margin: 50px;
+}
+.popular-line {
+  width: 15%;
+  margin: 0 auto;
+  background-color: rgb(145, 44, 44);
+  height: 3px;
+}

@@ -1,0 +1,25 @@
+.item-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  margin: 10px;
+}
+.item-name {
+  font-size: 15px;
+}
+.item-name {
+  line-height: 22px;
+}
+span {
+  margin-right: 10px;
+}
+.item-img {
+  border-radius: 15px;
+}
+.item-img:hover {
+  transform: scale(1.1);
+}
+.item-new-price {
+  text-decoration: line-through;
+}
