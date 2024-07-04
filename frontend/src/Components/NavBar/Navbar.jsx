@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [menu, setMenu] = useState("shop");
+  const styleLink = {
+    textDecoration: "none",
+  };
   return (
     <div className="navbar">
       <div>
@@ -16,19 +19,27 @@ export const Navbar = () => {
       </div>
       <ul className="nav-menu">
         <li className="nav-active" onClick={() => setMenu("shop")}>
-          <Link to="/">Shop</Link>
+          <Link to="/" style={styleLink}>
+            Shop
+          </Link>
           {menu === "shop" ? <hr /> : <></>}
         </li>
         <li onClick={() => setMenu("women")}>
-          <Link to="/women">Women</Link>
+          <Link to="/women" style={styleLink}>
+            Women
+          </Link>
           {menu === "women" ? <hr /> : <></>}
         </li>
         <li onClick={() => setMenu("men")}>
-          <Link to="/men">Men</Link>
+          <Link to="/men" style={styleLink}>
+            Men
+          </Link>
           {menu === "men" ? <hr /> : <></>}
         </li>
         <li onClick={() => setMenu("kids")}>
-          <Link to="/kids">Kids </Link>
+          <Link to="/kids" style={styleLink}>
+            Kids{" "}
+          </Link>
           {menu === "kids" ? <hr /> : <></>}
         </li>
       </ul>

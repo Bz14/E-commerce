@@ -24,10 +24,10 @@ function App() {
             element={<ShopCategory category="kids" />}
           ></Route>
           <Route path="/product" element={<Product />}>
-            <Route path=":productID" element={Product}></Route>
+            <Route path=":productID" element={<Product />}></Route>
           </Route>
-          <Route path="/cart" element={Cart}></Route>
-          <Route path="/login" element={LoginSignup}></Route>
+          <Route path="/cart" element={<Cart />}></Route>
+          <Route path="/login" element={<LoginSignup />}></Route>
         </Routes>
       </BrowserRouter>
     </>
