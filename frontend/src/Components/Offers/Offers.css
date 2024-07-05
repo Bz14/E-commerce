@@ -1,0 +1,22 @@
+.offer-div {
+  display: flex;
+  background: linear-gradient(180deg, #a58ea0d0, #e1ffea22);
+  width: 80%;
+  height: 80vh;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.offer-header {
+  font-size: 70px;
+}
+.offer-btn {
+  background-color: rgb(149, 76, 76);
+  color: white;
+  width: 150px;
+  outline: none;
+  border-radius: 15px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+}

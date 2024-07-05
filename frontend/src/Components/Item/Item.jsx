@@ -7,8 +7,8 @@ export default function Item(props) {
       <img src={props.data.image} alt="" className="item-img" />
       <p className="item-name">{props.data.name}</p>
       <div>
-        <span className="item-old-price">{props.data.new_price}</span>
-        <span className="item-new-price">{props.data.old_price}</span>
+        <span className="item-old-price">${props.data.new_price}</span>
+        <span className="item-new-price">${props.data.old_price}</span>
       </div>
     </div>
   );
