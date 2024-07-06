@@ -1,0 +1,51 @@
+.login-page {
+  background: linear-gradient(180deg, #a48ea5be, #e1ffea22);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.login-signup {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: white;
+  width: 400px;
+  height: 400px;
+}
+input {
+  width: 350px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.input-field {
+  padding: 15px;
+  border: 1px solid rgba(169, 163, 163, 0.555);
+}
+.log-sign-btn {
+  width: 380px;
+  height: 40px;
+  background-color: rgba(174, 49, 49, 0.926);
+  outline: none;
+  border: none;
+  color: white;
+}
+.log-option {
+  margin-top: 20px;
+}
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+.log-option {
+  font-weight: 300;
+}
+.login-header {
+  font-size: 25px;
+}
