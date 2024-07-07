@@ -6,7 +6,12 @@ export default function Item(props) {
   return (
     <div className="item-div">
       <Link to={`/product/${props.data.id}`}>
-        <img src={props.data.image} alt="" className="item-img" />
+        <img
+          src={props.data.image}
+          alt=""
+          className="item-img"
+          onClick={window.scrollTo(0, 0)}
+        />
       </Link>
 
       <p className="item-name">{props.data.name}</p>

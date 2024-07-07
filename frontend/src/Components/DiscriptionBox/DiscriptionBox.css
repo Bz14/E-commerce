@@ -1,0 +1,28 @@
+.review-div {
+  margin-top: 30px;
+}
+.paragraph {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+}
+.review-body {
+  border: 2px solid rgba(136, 133, 133, 0.667);
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.review-header {
+  display: flex;
+  width: 78%;
+  margin: 0 auto;
+}
+.review-h3 {
+  border: 2px solid rgba(136, 133, 133, 0.667);
+  padding: 10px;
+  border-bottom: none;
+  font-size: 16px;
+}
+.review {
+  font-weight: 300;
+}
