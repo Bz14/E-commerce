@@ -31,6 +31,8 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
+app.post("/upload", upload.single("product"), (req, res) => {});
+
 app.listen(port, (err) => {
   if (!err) {
     console.log("Server running on port 4000");
