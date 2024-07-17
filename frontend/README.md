@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# E-commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# JusticeLink
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+JusticeLink is a platform designed to connect Ethiopian communities with affordable legal aid. The idea for this project was provided by A2SV and was inspired by the personal experience of an A2SVian, whose father faced significant challenges in finding affordable legal representation. This project is developed for the A2SV Internal Hackathon, with the goal of making legal assistance more accessible to those in need.
 
-### `npm start`
+## Problem Statement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Many Ethiopian communities lack legal knowledge and have low incomes, making it difficult for them to obtain the legal aid they need. They often waste time and money trying to find affordable attorneys or legal assistance. JusticeLink aims to solve this problem by providing a platform that facilitates connections between the community and affordable attorneys, as well as legal aid organizations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Hague – A Justice Needs and Satisfaction Survey (JNS) conducted in 2020 by The Hague Institute for Innovation of Law (HiiL) shows that rapid development and urbanization continue to widen Ethiopia’s justice gap. Of the 7.4 million legal problems occurring in the country, 5.2 million remain unresolved or perceived as unfairly resolved.
 
-### `npm test`
+“Legal problems in Ethiopia are relatively low compared to other countries in Sub-Saharan Africa,” said Dr. Martin Gramatikov, director of Measuring Justice at HiiL. “That said, however, addressing the high demand for access and resolution to these issues will require bold action from justice stakeholders across the country. What matters is how many legal problems Ethiopians manage to resolve fairly.”
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Proposed Solution
 
-### `npm run build`
+JusticeLink will offer the following features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Attorney Directory:** A searchable database of attorneys offering affordable and pro bono services.
+2. **Legal Aid Organizations:** A directory of organizations providing free or low-cost legal services.
+3. **User Profiles:** Allow users to create profiles, manage their case details, and securely upload legal documents.
+4. **Information Hub:** A resource center with articles, FAQs, and guides on common legal issues.
+5. **Matching System:** An algorithm that matches users with attorneys based on their needs and the attorneys' expertise.
+6. **Feedback and Rating System:** Users can rate and leave feedback for attorneys and services they receive.
+7. **Text and Video Chat:** Integrated text and video chat functionality to facilitate communication between users and attorneys.
+8. **AI Chat Bot:** An AI-powered chatbot to provide preliminary legal advice and assist users in navigating the platform.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Target Users
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Primary Users:** Low-income individuals in need of affordable legal services, attorneys willing to offer affordable or pro bono services, and legal aid organizations.
+- **Secondary Users:** Anyone seeking affordable legal assistance.
 
-### `npm run eject`
+## Competitors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Local Competitors:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Ethiopian Government Universities:** Provide free legal aid but face bureaucratic challenges that limit their effectiveness.
+2. **Justice For All - Prison Fellowship Ethiopia:** Offers legal aid services but is primarily focused on criminal justice and prison reform.
+3. **Women Lawyers Association (EWLA):** Provides legal aid to women but may have limited resources and reach.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Global Competitors:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Avvo:** Connects users with legal aid and attorneys but does not specifically focus on affordability or volunteer services as JusticeLink does.
+2. **LegalZoom:** Offers online legal services and document preparation but focuses more on self-help legal services rather than connecting users with attorneys.
+3. **Rocket Lawyer:** Provides online legal services and attorney consultations but tends to be more expensive and less focused on pro bono or affordable services.
+4. **Lawyer.com:** Connects users with attorneys and offers a membership plan, but primarily targets higher-income users and lacks a strong focus on affordability.
+5. **JustAnswer:** An online platform where users can ask legal questions to attorneys, but it does not offer comprehensive legal aid or a matching system for ongoing legal representation.
 
-## Learn More
+## Impact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+JusticeLink aims to transform the legal landscape in Ethiopia and potentially across Africa by providing increased access to legal aid. This platform will empower individuals with the knowledge and resources needed to navigate legal challenges effectively, fostering a more just society.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technology Stack
 
-### Code Splitting
+- **Front-End:** React, HTML, CSS
+- **Back-End:** Firebase
+- **Database:** Firestore
+- **Hosting:** Vercel
+- **Version Control:** Git, GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Pages
 
-### Analyzing the Bundle Size
+![Home Page](src/xx/homepage.png)
+![Lawyer Search Page](./xx/lawyersearch.png)
+![Lawyer Profile Page](./xx/lawyerProfile.png)
+![Chat Page](./xx/chat.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Team Members
 
-### Making a Progressive Web App
+- **Daniel Asfaw**
+- **Eyerusalem Bezu**
+- **Haweten Girma**
+- **Solome Getachew**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+We welcome contributions from the community. Please fork the repository and create a pull request with your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Important Sources
 
-### Deployment
+- [WomenConnect - Legal Aid in Ethiopia](https://www.womenconnect.org/web/ethiopia/legal-aid#:~:text=In%20general%2C%20the%20Ethiopian%20government,General%2FRegional%20Justice%20Bureaus)
+- [HiiL - Widening Justice Gap in Ethiopia](https://www.hiil.org/news/press-release-widening-justice-gap-in-ethiopia-requires-bold-actions-and-innovation-to-boost-access-to-justice/)
+- [Justice Needs and Satisfaction in Ethiopia 2020 | Legal problems in daily life](https://www.hiil.org/wp-content/uploads/2019/09/JNS_Ethiopa_2020.pdf)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+
+- [A2SV](https://www.a2sv.org) for organizing the hackathon and providing this opportunity.
+- Our mentors and peers for their continuous support and feedback.
