@@ -14,7 +14,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 h-24">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="./" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} class="h-8" alt="" />
@@ -22,24 +22,6 @@ export const Navbar = () => {
             E-Shop
           </span>
         </a>
-        <div className="flex items-center"></div>
-        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button
-            type="button"
-            class="text-white bg-brown-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Login
-          </button>
-
-          <div>
-            <Link to="/cart">
-              <div className="absolute top-2 right-6 bg-brown-400 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                {getCartTotal()}
-              </div>
-              <img src={cart_icon} alt="Cart" className="h-6 w-6" />
-            </Link>
-          </div>
-        </div>
         <div
           class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
           id="navbar-cta"
@@ -79,6 +61,22 @@ export const Navbar = () => {
               >
                 <Link to="/kids">Kids</Link>
               </div>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="text-white bg-brown-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Login
+              </button>
+            </li>
+            <li>
+              <Link to="/cart">
+                <div className="absolute top-2 right-6 bg-brown-400 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                  {getCartTotal()}
+                </div>
+                <img src={cart_icon} alt="Cart" className="h-6 w-6" />
+              </Link>
             </li>
           </ul>
         </div>
